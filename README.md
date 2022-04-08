@@ -15,7 +15,7 @@ Please install following packages in your local machine.
 
 
 **Guide to Execute Code**
-- It is **recommanded** to run all the code in Google Colab.Please upload the python notebook files available under **notebook** subdirectory under **PART_A_B** directory.For more tutorial related to Google colab usage follow the link: [Google Colab](https://colab.research.google.com/)
+- It is **recommanded** to run all the code in **Google Colab**.Please upload the python notebook files available under **notebook** subdirectory under **PART_A_B** directory.For more tutorial related to Google colab usage follow the link: [Google Colab](https://colab.research.google.com/)
 
 # Part A
 
