@@ -114,12 +114,15 @@ In case there is no file **model-best.h5** in PARTA directry , please run the fo
 ```
 PartA_parta_qestion_4_BestModel.py
 ```
-Alternatively please download the model from below link 
+**Alternatively** please download the model from below link 
 https://drive.google.com/file/d/1bdMa03-Jf-zlZi1zL1IQLGThvNfAfHAz/view?usp=sharing
 
 View the run in wanDb:
 https://wandb.ai/kankan-jana/CS6910_Assignment-2/runs/179siwiu/files?workspace=user-kankan-jana
 
+Download the model (image given below)
+
+![image](https://github.com/kankancs21m026/cs6910_assignment2/blob/main/PART%20A/image/wandb.jpg)
 
 After that  run below set of commands
 #### Question 4
