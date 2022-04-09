@@ -18,7 +18,7 @@ https://wandb.ai/miteshk/assignments/reports/Assignment-2--Vmlldzo0NjA1MTU
 ## Answers
 | Parts      | Links |
 | ----------- | ----------- |
-| Part A    | [Link](https://github.com/kankancs21m026/cs6910_assignment2/tree/main/PART%20A)  [Readme](https://github.com/kankancs21m026/cs6910_assignment2/blob/main/PART%20A/readMe.md)       |
-| Part B    | [Link](https://github.com/kankancs21m026/cs6910_assignment2/tree/main/PART%20B)       |
-| Part C    | [Link](https://github.com/kankancs21m026/cs6910_assignment2/tree/main/PART%20C)       |
+| Part A    | [Link](https://github.com/kankancs21m026/cs6910_assignment2/tree/main/PART%20A)  [Readme](https://github.com/kankancs21m026/cs6910_assignment2/blob/main/PART%20A/ReadMe.md)       |
+| Part B    | [Link](https://github.com/kankancs21m026/cs6910_assignment2/tree/main/PART%20B)  [Readme](https://github.com/kankancs21m026/cs6910_assignment2/blob/main/PART%20B/readMe.md)         |
+| Part C    | [Link](https://github.com/kankancs21m026/cs6910_assignment2/tree/main/PART%20C)  [Readme](https://github.com/kankancs21m026/cs6910_assignment2/blob/main/PART%20C/ReadMe.md)         |
 
