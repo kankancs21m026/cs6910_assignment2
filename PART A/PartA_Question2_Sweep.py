@@ -223,8 +223,6 @@ ds=Dataset()
 
 ds.downloadDataSet()
 
-ds.showRandomImageOfEveryClass()
-
 train_ds,val_ds,test_ds=ds.import_dataset(seed=42,image_size=300,augment_data=True)
 
 sweep_config = {
