@@ -15,6 +15,11 @@ Please install following packages in your local machine.
 Go through the link below
 https://wandb.ai/miteshk/assignments/reports/Assignment-2--Vmlldzo0NjA1MTU
 
+
+## Report
+Go through the link below
+https://wandb.ai/kankan-jana/CS6910_Assignment-2/reports/-CS6910_Assignment-2--VmlldzoxODEzMjc0
+
 ## Answers
 | Parts      | Links |
 | ----------- | ----------- |
