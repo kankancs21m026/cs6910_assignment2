@@ -18,7 +18,7 @@ Please install following packages in your local machine.
 # 
 # Google Colab
 
- It is **recommanded** to run all the code in **Google Colab**.Please upload the python notebook files available under [Note Book](https://github.com/kankancs21m026/cs6910_assignment2/tree/main/PART%20A/NoteBooks) subdirectory under **PART_B** directory.For more tutorial related to Google colab usage follow the link: [Google Colab](https://colab.research.google.com/)
+ It is **recommanded** to run all the code in **Google Colab**.Please upload the python notebook files available under [Note Book](https://github.com/kankancs21m026/cs6910_assignment2/tree/main/PART%20B/NoteBooks) subdirectory under **PART_B** directory.For more tutorial related to Google colab usage follow the link: [Google Colab](https://colab.research.google.com/)
 
  | Question  | Link  |
 | --- | ----------- | 
