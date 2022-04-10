@@ -104,8 +104,6 @@ def GuidedBackprop(model,  Nuber_of_neurons=10):
   img_path=(os.path.join(dir,imgpath))
   imgs=cv2.imread(img_path)
   img=cv2.resize(imgs,(300,300))
-  fig = plt.figure(figsize=(150,150))
-  fig.add_subplot(rows,columns,1)
   
   plt.imshow(imgs)
   plt.axis('off')
@@ -133,7 +131,6 @@ def GuidedBackprop(model,  Nuber_of_neurons=10):
               ))       
       gb_viz -= np.min(gb_viz)
       gb_viz /= gb_viz.max()
-      fig.add_subplot(rows,columns,k+2)
       plt.imshow(gb_viz)
       
       plt.axis('off')
