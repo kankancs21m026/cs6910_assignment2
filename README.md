@@ -1,4 +1,5 @@
-# cs6910_assignment2
+# cs6910_assignment2 Kankan Jana ( CS21M026)
+
 
 **Python packages**	
 Please install following packages in your local machine.
