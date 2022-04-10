@@ -53,13 +53,12 @@ all_act_Layer_Names=[]
 for layer in model.layers:
     if('activation' in layer.name ):
         all_act_Layer_Names.append(layer.name)
-print(all_act_Layer_Names)
 
 all_Conv_Layer_Names=[]
 for layer in model.layers:
     if('conv' in layer.name ):
         all_Conv_Layer_Names.append(layer.name)
-print(all_Conv_Layer_Names)
+
 
 @tf.custom_gradient
 def guidedRelu(x):
@@ -90,14 +89,14 @@ def GuidedBackprop(model,  Nuber_of_neurons=10):
     
   #select random image from test directory
   #random_category=random.choice(range(len(classes)))
-  random_category=8
+  random_category=2
   category = classes[random_category]
   dir=os.path.join(test_dir,category)
 
   files=os.listdir( dir)
   
   #imgpath=random.choice(files)
-  imgpath="b4da1ba61661a95f12e8f9c653330222.jpg"
+  imgpath="cf9ba75f4ecf6cbdf0ba06d7fa8d9534.jpg"
  
  
   rows =12
@@ -105,7 +104,7 @@ def GuidedBackprop(model,  Nuber_of_neurons=10):
   img_path=(os.path.join(dir,imgpath))
   imgs=cv2.imread(img_path)
   img=cv2.resize(imgs,(300,300))
-  fig = plt.figure(figsize=(50,50))
+  fig = plt.figure(figsize=(150,150))
   fig.add_subplot(rows,columns,1)
   
   plt.imshow(imgs)
@@ -113,16 +112,17 @@ def GuidedBackprop(model,  Nuber_of_neurons=10):
   plt.title('Original Image:'+str(category))
   #plt.imshow(img)
   x = np.expand_dims(img, axis=0)
-  i=0
-  j = 0
-  k=1
+  i=2
+  j =3
+  k=0
   while k <= Nuber_of_neurons:
     
     with tf.GradientTape() as tape:       
       inputs = tf.cast(x, tf.float32)
       tape.watch(inputs)
       outputs = guided_backprop_model(inputs)[0]
-      out = outputs[i,j,k]
+     
+      out = outputs[i,j,k+20]
       grads = tape.gradient(out,inputs)[0]
       
       guided_back_prop =grads
@@ -135,13 +135,15 @@ def GuidedBackprop(model,  Nuber_of_neurons=10):
       gb_viz /= gb_viz.max()
       fig.add_subplot(rows,columns,k+2)
       plt.imshow(gb_viz)
-      plt.show()
+      
       plt.axis('off')
       
       plt.title('neuron'+str(k))
+      plt.show()
       #just ensure not picking same neuron
-      k+=1  
       j+=1
       i+=1
+      k+=1       
+     
 
 GuidedBackprop(model,10)
